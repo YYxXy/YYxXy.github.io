@@ -1,0 +1,62 @@
+body {
+    margin:0;
+}
+
+/* *****header***** */
+.header {
+    height: 50px;
+    background-color: #C01515;
+}
+
+.icon--img {
+    width: 5vw;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *****放大***** */
+.hover-zoom {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 200px;
+    object-fit: cover;
+  }
+
+.hover-zoom:hover {
+    transform: scale(1.1);
+  }
+
+/* *****footer***** */
+.footer {
+    margin-top: 100px;
+    height: 35vh;
+    background-color: #C4C4C4;
+}
+
+.footer--img {
+    height: 35vh;
+}
+
+.footer--logo {
+    width: 10vw;
+}
+
+ /* *****響應式設計***** */
+ @media (max-width: 767px){
+    header {
+        
+    }
+ }
+}
